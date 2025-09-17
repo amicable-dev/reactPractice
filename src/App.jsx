@@ -1,7 +1,8 @@
 import './App.css';
 import NewPage from './NewPage.jsx';
 import Button from './Button.jsx';
-import States from './States.jsx'
+import States from './States.jsx';
+import Toggle from './Toggle.jsx';
 function App() {
   function addiation(a, b) {
     return a + b;
@@ -28,6 +29,7 @@ function App() {
       <br />
       <Button />
       <States />
+      <Toggle/>
     </>
   );
 }
