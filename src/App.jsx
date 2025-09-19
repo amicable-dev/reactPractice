@@ -5,6 +5,7 @@ import States from './States.jsx';
 import Toggle from './Toggle.jsx';
 import Props from './Props.jsx';
 import AdvanceProps from './AdvancrProps.jsx'
+import InputTaker from './components/InputTaker.jsx'
 function App() {
   function addiation(a, b) {
     return a + b;
@@ -40,6 +41,7 @@ function App() {
         <h2 style={{color:'green',font:'message-box'}}>This is from the advance props in the main app component , used children fun to work with it and make it possible</h2>
       </AdvanceProps>
       <AdvanceProps />
+      <InputTaker/>
     </>
   );
 }
