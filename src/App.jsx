@@ -4,6 +4,7 @@ import Button from './Button.jsx';
 import States from './States.jsx';
 import Toggle from './Toggle.jsx';
 import Props from './Props.jsx';
+import AdvanceProps from './AdvancrProps.jsx'
 function App() {
   function addiation(a, b) {
     return a + b;
@@ -33,6 +34,12 @@ function App() {
       <Toggle/>
       <hr />
       <Props />
+      <br />
+      <AdvanceProps color='pink' potato='Raghav'/>
+      <AdvanceProps h1color='orange'>
+        <h2 style={{color:'green',font:'message-box'}}>This is from the advance props in the main app component , used children fun to work with it and make it possible</h2>
+      </AdvanceProps>
+      <AdvanceProps />
     </>
   );
 }
