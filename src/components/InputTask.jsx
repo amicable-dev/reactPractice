@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 const InputTask=()=>{
+{/*some of the states are created*/}
     const [inpName,newName]=useState();
     const [inpAge,newAge]=useState();
     const [inpEmail,newEmail]=useState();
@@ -23,7 +24,8 @@ const InputTask=()=>{
         console.log("Name :",inpName)
         console.log("Age :",inpAge)
         console.log("Email :",inpEmail)}}
-        >Enter</button>
+        >Enter
+        </button>
         </>
     )
 }
