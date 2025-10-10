@@ -6,6 +6,8 @@ import Toggle from './Toggle.jsx';
 import Props from './Props.jsx';
 import AdvanceProps from './AdvancrProps.jsx'
 import InputTaker from './components/InputTaker.jsx'
+import CounterKiller from './components/CounterKiller.jsx';
+import Fetech from './components/Fetech.jsx'
 function App() {
   function addiation(a, b) {
     return a + b;
@@ -42,6 +44,9 @@ function App() {
       </AdvanceProps>
       <AdvanceProps />
       <InputTaker/>
+      <CounterKiller/>
+      <Fetech/>
+
     </>
   );
 }
